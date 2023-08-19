@@ -1,0 +1,78 @@
+@use 'variables' as v;
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    padding: 0 24px;
+    @media (min-width: 1115px){
+        height: 112px;
+        border-bottom: 1px solid v.$Grayish-blue;
+    }
+    &__navigation{
+        width: 175px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1115px){
+            width: 590px;
+        }
+    }
+    /*Menu hamburguesa del menu movil*/
+    &__menu{
+        &:hover{
+            cursor: pointer;
+        }
+        @media (min-width: 1115px){
+            display: none;
+        }
+    }
+    /*Contener del carrito de compras, la notificación del carrito y la imagen del usuario*/
+    &__cart-user{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        width: 70px;
+        @media (min-width: 1115px){
+            width: 125px;
+        }
+    }
+    /*Contenedor carrito de compras*/
+    &__cart{
+        position: relative;
+        &--notification{
+            display: none;
+            background-color: v.$Orange;
+            width: 15px;
+            height: 12px;
+            border-radius: 16px;
+            position: absolute;
+            top: -2px;
+            right: -5px;
+            font-size: 0.6em;
+            text-align: center;
+            color: v.$White;
+        }
+        
+    }
+    &__cart:hover {
+        cursor: pointer;
+        //content: url('../images/icon-cart-orange.svg');
+       
+    }
+    /*Contenedor usuario*/
+    &__user{
+        width: 24px;
+        @media (min-width: 1115px){
+            width: 48px;
+        }
+        &:hover{
+            cursor: pointer;
+            border: 2px solid v.$Orange;
+            border-radius: 50%; 
+        }
+    }
+    
+}

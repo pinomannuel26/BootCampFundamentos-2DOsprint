@@ -1,0 +1,132 @@
+:root {
+    --color-primary: #71f3dd;
+    --color-secundary: #A786DF;
+    --font-family: "Nunito";
+    --color-yellow: #c4d791;
+    --color-green: #85d185;
+    --color-gray: #535353;
+    --color-tertiary: #D9D4E7;
+    --color-black: #0E172C;
+    --bs-secondary: #0E172C;
+}
+
+
+body{
+  background-size: cover;
+    background-image: url(img/fondo.png);
+    
+
+}
+
+.guardar-cambios, .btn-iniciarSesion, .btn-registrarse {
+    width: 100%;
+    border-radius: 98px;
+    margin-bottom: 24px;
+    border: 1px solid  hsl(26, 100%, 55%);
+}
+
+
+
+.edit {
+    width: 327px;
+    height: 48px;
+    left: 0px;
+    border: 1px solid var(--color-gray);
+    margin: 4px 0px;
+    margin-bottom: 16px;
+}
+
+.label-edit {
+    margin: 0px 10px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 94px;
+    margin-left: 140px;
+    
+}
+
+.nombre {
+    color: var(--color-black);
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.btn-editar {
+    color: var(--color-black);
+    margin-bottom: 24px;
+}
+
+.datos {
+    padding: 0;
+}
+
+.tituloPerfil {
+    margin: 48px 24px 32px 24px;
+}
+
+.o {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 540px) {
+    .tituloPerfil {
+ 
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+
+    .usuario {
+       width: 100%;
+       margin: 0;
+       text-align: center;
+    }
+
+    .formUsuario {
+        text-align: -webkit-center;
+       
+    }
+
+    .div-usuario {
+        width: 40%;
+        height: 90%;
+        background-color: white;
+        margin-bottom: 10px;
+        border: 4px solid  black;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        
+        border-radius: 25px;
+       
+        
+    }
+    
+
+    .campo {
+        margin-left: 18%;
+        font-weight: bold;
+     
+    }
+
+    .edit {
+        width: 80%;
+        border: 1px solid hsl(26, 100%, 55%);
+    }
+
+    .guardar-cambios {
+        margin-left: 25%;
+        width: 50%;
+        background-color: hsl(26, 100%, 55%);
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+}

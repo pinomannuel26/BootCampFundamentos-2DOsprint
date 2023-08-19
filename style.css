@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans";
+}
+
+header{
+    background: url();
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+}
+.titulo_principal{
+    text-align: center;
+    font-size: 50px;
+    color:hsl(26, 100%, 55%);
+    padding: 30px 0;
+}
+.contenedor{
+    padding: 10px;
+ 
+    display:flex;
+    justify-content: space-between;
+    /*oculto lo que queda fuera del contenedor*/
+    contain: paint;
+}
+/*SECCION CONTENEDOR DE ITEMS*/
+.contenedor .contenedor-items{
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    transition: .3s;
+
+}
+.contenedor .contenedor-items .item{
+  
+    margin: 30px 0 0 35px;
+    width: 424px;
+    height: 420px;
+    border-radius: 2px;
+    /*padding: 20px;*/
+    transition: .1s;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.contenedor .contenedor-items .item .img-item{
+    margin-top: 20px;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.contenedor .contenedor-items .item .titulo-item{ 
+
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+} 
+.contenedor-items .item .precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contenedor .contenedor-items .item .boton-item{
+    display:block;
+    border-radius: 6px;
+    margin: -80px 5px auto -230px;
+    padding: 5px 5px;
+    border:none;
+    background:  hsl(26, 100%, 55%);
+    color: #fff;
+    cursor:pointer;
+    height: 40px;
+    width: 42px;
+    font-size: 20px;
+}
+
+.contenedor .contenedor-items .item a
+{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+    height: 30px;
+    width: 135px;
+    padding-top: 6px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.contenedor .contenedor-items .item a:hover{
+    opacity: 0.5;
+}
+
+.contenedor .contenedor-items .item:hover{
+    box-shadow: 0px 0px 5px #666;
+    scale: 1.05;
+    color: hsl(26, 100%, 55%);
+    border: 1px solid  hsl(26, 100%, 55%);
+    
+}
+@media (max-width:1115px)
+{
+    
+    .contenedor .contenedor-items{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    
+    }
+}

@@ -1,0 +1,89 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Zapatos Nike",
+      "precio": 150000,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Ideales para la caminata en zonas rurales",
+      "imagen1": "img/image-product_1.png",
+      "imagen2": "img/image-product_2.png",
+      "imagen3": "img/image-product_3.png",
+      "imagen4": "img/image-product_4.png",
+      "tipo": "hombre"
+    },
+    {
+      "id": 2,
+      "nombre": "TENIS CLÁSICOS BLANCOS COMFYCUSH ",
+      "precio": 389000,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Ideales para la caminata en zonas rurales",
+      "imagen1": "img/vans_blancas_1.png",
+      "imagen2": "img/vans_blancas_2.png",
+      "imagen3": "img/vans_blancas_3.png",
+      "imagen4": "img/vans_blancas_4.png",
+      "tipo": "hombre"
+    },
+    {
+      "id": 3,
+      "nombre": "TENIS BOTA CLÁSICOS DE LONA Y GAMUZA NEGROS",
+      "precio": 409000,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Ideales para la caminata en zonas rurales",
+      "imagen1": "img/TENIS_BOTA_CLÁSICOS_DE_LONA_Y_GAMUZA_NEGROS_1.png",
+      "imagen2": "img/TENIS_BOTA_CLÁSICOS_DE_LONA_Y_GAMUZA_NEGROS_2.png",
+      "imagen3": "img/TENIS_BOTA_CLÁSICOS_DE_LONA_Y_GAMUZA_NEGROS_3.png",
+      "imagen4": "img/TENIS_BOTA_CLÁSICOS_DE_LONA_Y_GAMUZA_NEGROS_4.png",
+      "tipo": "mujer"
+    },
+    {
+      "id": 4,
+      "nombre": "TENIS CLÁSICOS BLANCOS OLD SKOOL VAN DOREN ",
+      "precio": 479000,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Ideales para la caminata en zonas rurales",
+      "imagen1": "img/TENIS_CLÁSICOS_BLANCOS_OLD_SKOOL_1.png",
+      "imagen2": "img/TENIS_CLÁSICOS_BLANCOS_OLD_SKOOL_2.png",
+      "imagen3": "img/TENIS_CLÁSICOS_BLANCOS_OLD_SKOOL_3.png",
+      "imagen4": "img/TENIS_CLÁSICOS_BLANCOS_OLD_SKOOL_4.png",
+      "tipo": "mujer"
+    },
+    {
+      "id": 5,
+      "nombre": "TENIS OLD SKOOL NEGROS VANS",
+      "precio": 349000,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Cumple con tus objetivos uno por uno. Estos tenis de running adidas están diseñados para que rompas tus marcas personales en cada salida a correr. La tecnología Boost en el antepié y el talón se combina con la amortiguación Bounce para ofrecerte una pisada balanceada y llena de energía. Llegó la hora de superar tus propias expectativas.",
+      "imagen1": "img/vans_clasicas_negras_1.png",
+      "imagen2": "img/vans_clasicas_negras_2.png",
+      "imagen3": "img/vans_clasicas_negras_3.png",
+      "imagen4": "img/vans_clasicas_negras_4.png",
+      "tipo": "mujer"
+    },
+    {
+      "id": 6,
+      "nombre": "RESPONSE RUNNER SHOES",
+      "precio": 229950,
+      "descuentoPorcentaje": 50,
+      "descripcion": "Diseñados para tus salidas a correr matutinas o a correr a casa, estos tenis de running adidas tienen un exterior de malla transpirable que ofrece comodidad durante todo el día. Con un aterrizaje suave y acolchado, y una duradera suela de caucho, tendrás el soporte y la tracción necesarios para un ciclo fácil alrededor del vecindario. El exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "imagen1": "img/Response_Runner_Shoes_Negro_1.png",
+      "imagen2": "img/Response_Runner_Shoes_Negro_2.png",
+      "imagen3": "img/Response_Runner_Shoes_Negro_3.png",
+      "imagen4": "img/Response_Runner_Shoes_Negro_4.png",
+      "tipo": "hombre"
+    }
+  ],
+  "ventas": [
+    {
+      "id": 2,
+      "nombre_comprador": "Monica",
+      "apellido": "pino",
+      "correo": "admin@admin",
+      "n_targeta": "77777777777777777",
+      "precio_unidad": "75000 ",
+      "Nombre_producto": "Zapatos Nike  ",
+      "cantidad": "4",
+      "precio_total": "300000"
+    }
+  ]
+}

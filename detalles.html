@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>E-commerce - Sprint 2</title>
+  
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <main class="main-container">
+    <header class="header">
+      <div class="header__navigation">
+        <img class="header__menu" src="./images/icon-menu.svg" alt="menu icon">
+        <img class="header__logo" src="./images/logo.svg" alt="logo">
+        <!--Navbar version normal-->
+        <nav class="navbar">
+          <ul class="navbar__items">
+            <li><a class="navbar__link" href="index.html">Collections</a></li>
+            <li><a class="navbar__link" href="index.html?param1=hombre" >Men</a></li>
+            <li><a class="navbar__link" href="index.html?param1=mujer" >Women</a></li>
+            <li><a class="navbar__link" href="#">About</a></li>
+            <li><a class="navbar__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <!--Fin Navbar version normal-->
+      </div>
+      
+      <!--navBar version movil -->
+      <div class="modal-navbar__background">
+        <nav class="modal-navbar">
+          <img class="modal-navbar__close-icon" src="./images/icon-close.svg" alt="" srcset="">
+          <ul class="modal-navbar__items">
+            <li><a class="navbar__link" href="index.html">Collections</a></li>
+            <li><a class="navbar__link" href="index.html?param1=hombre" >Men</a></li>
+            <li><a class="navbar__link" href="index.html?param1=mujer" >Women</a></li>
+            <li><a class="modal-navbar__link" href="#">About</a></li>
+            <li><a class="modal-navbar__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--Fin navBar version movil -->
+
+      <!--contenedor carrito de compras y usuario -->
+      <div class="header__cart-user">
+        <div class="header__cart">
+          <div class="header__cart--notification">0</div>
+          <img src="./images/icon-cart.svg" alt="">
+        </div>
+        <img class="header__user" src="./images/image-avatar.png" alt="">
+      </div>
+      <!--fin contenedor carrito de compras y usuario -->
+    </header>
+
+    <section class="content">
+      <article >
+        <div id="carrusel" class="gallery">
+         <!--Este es el contenedor de las 4 imagenes pequeñas que se ven en la parte inferior-->
+        </div>
+      </article>
+
+      <article  class="details">
+        <div id="details">
+          <h2 class="details__company">Sneaker Company</h2>
+        </div>
+        
+      </article>
+    </section>
+
+    <!-- Carrito de compras -->
+    <div class="cart-modal">
+      <p class="cart-modal__title">Cart</p>
+      <div class="cart-modal__chekout-container">
+        <div class="cart-modal__details-container">
+          <img class="cart-modal__image" src="./images/image-product-1-thumbnail.jpg" alt="">
+          <div>
+            <p class="cart-modal__product">Autumn Limited Edition...</p>
+            <p class="cart-modal__price">$125 x3 <span>$375.00</span> </p>
+          </div>
+          <img class="cart-modal__delete" src="./images/icon-delete.svg" alt="delete">
+        </div>
+        <button type="button" class="cart-modal__chekount"  >Checkout</button>
+      </div>
+    </div>
+    <!-- Fin Carrito de compras -->
+
+    
+  </main>
+  
+  <footer class="attribution">
+    Bootcap Makaia - Frontend Coorte 6 - Sprint 2. <br>
+    <ul class="attribution-nombres">
+      <li><a class="attribution-nombre" href="#">Desarrollado por:</a></li>
+      <li><a class="attribution-nombre" href="#">Monica Rincón,</a></li>
+      <li><a class="attribution-nombre" href="#">Mannuel Granoble,</a></li>
+      <li><a class="attribution-nombre" href="#">Isabela Alzate, </a></li>
+      <li><a class="attribution-nombre" href="#">Josman Muñoz</a></li>
+    </ul>
+        
+  </footer>
+
+  <!-- Galeri con zoom -->
+  <div class="modal-gallery__background">
+    <article class="modal-gallery">
+      <div class="modal-gallery__close-container">
+        <img class="modal-gallery__close" src="./images/icon-close.svg" alt="icon close">
+      </div>
+      <div class="modal-gallery__image-container">
+        <img class="modal-gallery__previus" src="./images/icon-previous.svg" alt="previus">
+        <img class="modal-gallery__next" src="./images/icon-next.svg" alt="next">
+      </div>
+      <div id="cont-img-zoom" class="modal-gallery__thumnails">
+
+      </div>
+    </article>
+  </div>
+  <!-- Galeri con zoom -->
+  <!--EXTENCION PARA ALERTAS-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@use 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Implementar el tipo de letra que importamos, a traves de la variable que lo contiene*/
+    font-family: variables.$Font;
+}
+.attribution {
+    font-size: 18px;
+    text-align: center; 
+    margin:  0 0 15px 0;
+    &-nombres{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        
+    }
+    &-nombre{
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+      
+        &:hover{
+            color: variables.$Orange;
+        }
+    }
+
+  
+}
